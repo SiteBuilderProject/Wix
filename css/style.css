@@ -1,0 +1,169 @@
+
+#home .nav-item a{
+    color:black;
+}
+
+#home .navigation{
+
+    background-image: url("../images/a.jpg");
+    background-size: 100% 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+/*#home .overlay{
+    background-color: rgba(0, 0, 0, 0.527); 
+      height:100%;
+ }*/
+
+ #home .caption{
+    
+    width:100%;
+    
+    text-align: center;
+    margin-top: 350px;
+    
+    
+}
+#home .caption .links{
+    text-decoration-line: none;
+    color: #fff;
+}
+#slide .links{
+    text-decoration-line: none;
+    color: #fff;
+}
+#slide .cfit .btn{
+    animation-name: home;
+    animation-duration: 3s;
+    transition: all 1s;
+    margin-top: 35px;
+    padding: 15px;
+}
+
+
+
+@keyframes home{
+    0%{transform: scale(0,0); opacity: 0}
+    100%{transform: scale(1); opacity: 1}
+}
+
+#slide .fit{
+/*background-image: url("../images/u.jpg");
+background-size: 100% 100%;*/
+
+    height: 400px;
+}
+
+#slide .cfit{
+    color:black;
+    background-color: beige;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    top:120;
+    left:0;
+    animation-name: home;
+    animation-duration: 2s;
+    transition: all 1s;
+}
+#info{
+    background-color: beige;
+   
+}
+#info .cinfo{
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 50px;
+    padding-bottom: 50px;
+}
+
+#features{
+    position: relative;
+}
+#features .featuresimg{
+    background-image: url("../images/apple-coffee-computer-6518.jpg");
+    background-size: 100% 100%;
+    height: 650px;
+  
+}
+#features .featuresInfo{
+    background-color:rgba(0,0,0,0.75);
+    color:#fff;
+    width:45%;
+    height: 40%;
+    position :absolute;
+    top:20%;
+    left:0px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+#publish{
+    position: relative;
+}
+#publish .publishimg{
+    background-image: url("../images/i.jpg");
+    background-size: 100% 100%;
+    height: 600px;
+}
+#publish .publishInfo{
+    background-color:rgba(0,0,0,0.75);
+    color:#fff;
+    width:45%;
+    height: 40%;
+    position :absolute;
+    top:30%;
+    left:0px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+#contact .container-fluid{
+    background-color:beige;
+
+}
+#contact .caption{
+    width: 75%;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+#contact .caption1{
+    margin-top: 50px;
+}
+#contact .caption1 ul li a{
+color:black;
+}
+#contact .copy{
+    
+    padding: 30px;
+    text-align: center;
+    margin-left: 280px;
+    
+}
+
+#second-logo .logo{
+    margin-right: 50px;
+}
+
+#add .container{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#add .domain{
+    margin-top: 100px;
+    border: 1px solid #b5b5b5;
+    padding: 20px;
+    
+}
+#add .domain .btn{
+    margin-top: 15px;
+}
+#add .build{
+    margin-top: 20px;
+    border: 1px solid #b5b5b5;
+    padding: 20px;
+}
+#add .new{
+    margin-top: 40px !important;
+}
